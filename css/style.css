@@ -57,7 +57,7 @@ ul {
   position: relative;
   padding: 0 15px;
   font-weight: 600;
-  top: -12px;
+  top: 6px;
 }
 
 .parallelogram-right {
@@ -104,6 +104,7 @@ ul {
   color: #fff;
   padding: 10px 20px 20px 0;
   text-align: center;
+  height: 62px;
 }
 
 .branding-logo {
@@ -113,6 +114,11 @@ ul {
   width: 300px!important;
   margin-right: 10px;
   float: left;
+}
+
+.branding-logo .logo {
+  width: 290px;
+  height: 50px;
 }
 
 .branding-support {
@@ -204,8 +210,6 @@ a {
   padding: 0;
   background-color: #fd741c;
   display: flex;
-  /* justify-content: flex-start;
-  align-items: center; */
 }
 
 .house-icon-container {
@@ -241,7 +245,7 @@ a {
   position: absolute;
   width: 18px;
   height: 18px;
-  top: 189px;
+  top: 177px;
   left: 262px;
 }
 
@@ -345,7 +349,7 @@ p {
 
 .will-photo img {
   float: left;
-  margin: 8px 40px 0 20px;
+  margin: 8px 40px 40px 20px;
 }
 
 .will-message p {
@@ -354,8 +358,12 @@ p {
   margin-top: -20px;
 }
 
-.will-message {
-  height: 339px;
+.search-items {
+  display: none;
+}
+
+.shape-container {
+  display: none;
 }
 
 .black-bar {
@@ -392,11 +400,6 @@ p {
     text-align: left;
   }
 
-  .branding-logo .logo {
-    width: 290px;
-    height: 50px;
-  }
-
   .navbar-nav>li {
     float: left;
   }
@@ -405,6 +408,10 @@ p {
 @media screen and (min-width: 830px) {
   .shape-container {
     display: inline-block;
+  }
+
+  .will-photo img {
+    margin: 8px 40px 0px 20px;
   }
 }
 
@@ -420,4 +427,16 @@ p {
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .search-items {
+    display: inline;
+  }
+
+  .shape-container {
+    display: inline;
+  }
+
+  .banner-text {
+    top: -12px;
+}
 }
