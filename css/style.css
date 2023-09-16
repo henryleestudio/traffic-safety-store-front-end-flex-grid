@@ -33,6 +33,22 @@ ul {
   max-width: 165px;
 }
 
+.branding-support {
+  z-index:3;
+  height:56px
+}
+
+.store-phone-number {
+  display: none;
+}
+
+.supplies {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 35px;
+  text-align: right;
+}
+
 .parallelogram-left {
   width: 27px;
   height: 35px;
@@ -114,6 +130,7 @@ ul {
   width: 300px!important;
   margin-right: 10px;
   float: left;
+  text-align: left;
 }
 
 .branding-logo .logo {
@@ -159,12 +176,8 @@ ul {
   line-height: 1;
 }
 
-.valueProp {
-  overflow: hidden;
-  font-size: 18px;
-  text-align: center;
-  position: relative;
-  margin: 0 0 1px 0;
+.message p {
+  padding-top:10px
 }
 
 a {
@@ -347,15 +360,9 @@ p {
   margin: 0 0 18px 0;
 }
 
-.will-photo img {
-  float: left;
-  margin: 8px 40px 40px 20px;
-}
-
 .will-message p {
   font-size: 13px;
   padding-right: 10px;
-  margin-top: -20px;
 }
 
 .search-items {
@@ -395,17 +402,48 @@ p {
   width: 200px;
 }
 
+.will-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.will-photo img {
+  margin-bottom: 16px;
+}
+
+.navbar-top {
+  display: none;
+}
+
+header {
+  display: none;
+}
+
 @media (min-width: 768px){
-  .branding-logo {
-    text-align: left;
+
+  header {
+    display: block;
   }
 
   .navbar-nav>li {
     float: left;
   }
+
+  .will-photo {
+    display: block;
+  }
+
+  .will-photo img {
+    float: left;
+    margin: 8px 40px 40px 20px;
+  }
 }
 
 @media screen and (min-width: 830px) {
+  header {
+    display: block;
+  }
+  
   .shape-container {
     display: inline-block;
   }
@@ -413,30 +451,27 @@ p {
   .will-photo img {
     margin: 8px 40px 0px 20px;
   }
-}
-
-@media (min-width: 990px) {
-  .valueProp>p {
-      margin-top: 30px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  #header-nav-main .container-fluid #header-nav-left #header-nav-categories .dropdown-toggle {
-    font-size: 13px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .search-items {
-    display: inline;
-  }
 
   .shape-container {
     display: inline;
   }
 
+  .valueProp>p {
+    margin-top: 30px;
+  }
+
   .banner-text {
-    top: -12px;
+    top: -12px; 
+  } 
+}
+
+@media only screen and (min-width: 992px) {
+
+  .search-items {
+    display: inline;
+  }
+
+  .valueProp>p {
+    margin-top: 30px;
 }
 }
