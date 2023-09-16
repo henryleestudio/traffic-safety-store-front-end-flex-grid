@@ -1,0 +1,416 @@
+.border {
+  border: solid 1px blue;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Open Sans',Arial,Helvetica,sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+#saleBanner {
+  background: #fd741c;
+  height: 35px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.center-banner {
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+
+.shape-container {
+  max-width: 165px;
+}
+
+.parallelogram-left {
+  width: 27px;
+  height: 35px;
+  display: inline-block;
+  margin-right: 25px;
+  transform: skew(-40deg);
+  background: #ccc;
+}
+
+.banner-text {
+  color: #fff;
+  font-family: Montserrat,sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  border-top: 1px solid #999;
+  border-bottom: 1px solid #999;
+  min-width: 1px;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding: 0 15px;
+  font-weight: 600;
+  top: -12px;
+}
+
+.parallelogram-right {
+  width: 27px;
+  height: 35px;
+  display: inline-block;
+  top: 0;
+  margin-left: 25px;
+  transform: skew(40deg);
+  background: #ccc;
+}
+
+.navbar-top {
+  height: 25.59px;
+  display: block;
+  background: #192848;
+  padding: 3px 0;
+}
+
+.site-navigation {
+  text-align: right;
+}
+
+.site-navigation li {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 0;
+}
+
+.site-navigation a {
+  color: #cdd7f0;
+}
+
+.header-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: right;
+}
+
+.branding {
+  background: #2a4b8e;
+  color: #fff;
+  padding: 10px 20px 20px 0;
+  text-align: center;
+}
+
+.branding-logo {
+  padding-top: 2px;
+  padding-bottom: 0;
+  padding-left: 0;
+  width: 300px!important;
+  margin-right: 10px;
+  float: left;
+}
+
+.branding-support {
+  height: 56px;
+  line-height: 1;
+  padding-right: 0;
+  min-width: 190px !important;
+  margin-left: 10px;
+  float: right;
+  color: #fff;
+}
+
+.custom-support {
+  clear: none;
+  float: right;
+}
+
+.live-support {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+#americanFlagIcon {
+  margin-bottom: 2.5px;
+  margin-right: 4px;
+  vertical-align: middle;
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.phone-number {
+  font-size: 30px;
+  margin-top: 3px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  text-align: right;
+  line-height: 1;
+}
+
+.valueProp {
+  overflow: hidden;
+  font-size: 18px;
+  text-align: center;
+  position: relative;
+  margin: 0 0 1px 0;
+}
+
+a {
+  color: #428bca;
+  text-decoration: none;
+  background: 0 0;
+}
+
+.branding-logo p {
+  margin: -3px 0 3px 10px;
+  font-size: 13.5px;
+}
+
+#header-nav-main {
+  margin-bottom: 0;
+  background-color: #fd741c;
+  color: #fff;
+  border-radius: 0;
+  border: 0;
+  padding-right: 0;
+  margin-bottom: 4px;
+}
+
+.navbar-default {
+  background-image: linear-gradient(to bottom,#fff 0,#f8f8f8 100%);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 5px rgba(0,0,0,.075);
+}
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+}
+
+#header-nav-collapse {
+  height: 53px;
+}
+
+.search-nav {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fd741c;
+  display: flex;
+  /* justify-content: flex-start;
+  align-items: center; */
+}
+
+.house-icon-container {
+  background-color: #2a4b8e;
+  width: 60px;
+  height: 55px;
+  padding-right: 2px; display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.house-icon {
+  width: 40px;
+}
+
+.products-dropdown {
+  height: 55px;
+}
+
+.search {
+  width: 70%;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.search input {
+  padding: 8px 8px 8px 30px;
+  width: 50%;
+}
+
+.search-icon {
+  z-index: 20;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 189px;
+  left: 262px;
+}
+
+.hamburger-menu {
+  width: 10px;
+}
+
+.products-dropdown ul {
+  float: left;
+}
+
+.search-button .btn {
+  font-weight: 600;
+  color: #fff;
+  background: #59595a;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2);
+  margin-left: -6px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  border-radius: 0 4px 4px 0;
+}
+
+.store-links {
+  float: right;
+  font-size: 14px;
+  line-height: 49px;
+  margin: 0;
+  padding: 0;
+}
+
+.store-links li {
+  display: inline-block;
+  color: white;
+}
+
+.store {
+  float: right;
+  margin-top: -49px;
+  margin-right: 12px;
+}
+
+.store-user a, .store-links a {
+  color: white;
+}
+
+.about-links {
+  background-color: #000;
+  height: 30px;
+  width: 100%;
+}
+
+.pull-right {
+  float: right!important;
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.cart-icon {
+  margin-right: 4px;
+}
+
+.about-links li {
+  display: inline;
+  padding: 2px 10px;
+}
+
+.dark-grey-bg {
+  background-color: #4a4a4a;
+  padding: 15px 10px;
+  margin-top: -9px;
+}
+
+p {
+  color: white;
+}
+
+.willSig {
+  width: 19%;
+}
+
+.blue-border {
+  color: #fff;
+  border-bottom: 2px solid #5292e0;
+  display: inline-block;
+}
+
+.will-photo img {
+  float: left;
+  margin: 8px 40px 0 20px;
+}
+
+.will-message p {
+  font-size: 13px;
+  padding-right: 10px;
+  margin-top: -20px;
+}
+
+.black-bar {
+  text-align: center;
+  background-color: #000;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img-section {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-imgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  max-width: 925px;
+  margin: 40px 0;
+}
+
+.profile-imgs img {
+  width: 20%;
+}
+
+@media (min-width: 768px){
+  .branding-logo {
+    text-align: left;
+  }
+
+  .branding-logo .logo {
+    width: 290px;
+    height: 50px;
+  }
+
+  .navbar-nav>li {
+    float: left;
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .shape-container {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 990px) {
+  .valueProp>p {
+      margin-top: 30px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #header-nav-main .container-fluid #header-nav-left #header-nav-categories .dropdown-toggle {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
