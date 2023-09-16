@@ -318,6 +318,11 @@ a {
   width: 100%;
 }
 
+.about-links a {
+  font-size: 16px;
+  color: #66ccff;
+}
+
 .pull-right {
   float: right!important;
   margin-top: 0;
@@ -465,6 +470,12 @@ header {
   } 
 }
 
+@media only screen and (min-width: 829px) {
+  .will-photo img {
+    margin: 8px 40px 20px 20px;
+  }
+}
+
 @media only screen and (min-width: 992px) {
 
   .search-items {
@@ -473,5 +484,5 @@ header {
 
   .valueProp>p {
     margin-top: 30px;
-}
+  }
 }
