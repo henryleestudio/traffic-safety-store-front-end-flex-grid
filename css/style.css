@@ -258,7 +258,8 @@ a {
   position: absolute;
   width: 18px;
   height: 18px;
-  top: 177px;
+  top: 145px;
+  /* top: 177px; */
   left: 262px;
 }
 
@@ -343,8 +344,7 @@ a {
 
 .dark-grey-bg {
   background-color: #4a4a4a;
-  padding: 15px 10px;
-  margin-top: -9px;
+  padding: 45px 10px;
 }
 
 p {
@@ -404,7 +404,7 @@ p {
 }
 
 .profile-imgs img {
-  width: 200px;
+  width: 180px;
 }
 
 .will-photo {
