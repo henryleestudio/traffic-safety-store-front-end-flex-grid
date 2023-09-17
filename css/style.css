@@ -565,5 +565,13 @@ header {
     max-width: 100%;
     padding-top: 7px;
   }
+
+  .profile-icon {
+    width: 31px;
+  }
+
+  .cart-outline {
+    width: 31px;
+  }
   
 }
