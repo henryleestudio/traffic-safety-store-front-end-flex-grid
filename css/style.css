@@ -345,6 +345,7 @@ a {
 .dark-grey-bg {
   background-color: #4a4a4a;
   padding: 45px 10px;
+  margin-top: -6px;
 }
 
 p {
@@ -424,6 +425,10 @@ header {
   display: none;
 }
 
+.mobile-header {
+  display: none;
+}
+
 @media (min-width: 768px){
 
   header {
@@ -470,12 +475,6 @@ header {
   } 
 }
 
-@media only screen and (min-width: 829px) {
-  .will-photo img {
-    margin: 8px 40px 20px 20px;
-  }
-}
-
 @media only screen and (min-width: 992px) {
 
   .search-items {
@@ -485,4 +484,86 @@ header {
   .valueProp>p {
     margin-top: 30px;
   }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .mobile-header {
+    padding: 0;
+    top: 0;
+    left: 0;
+    background: #2a4b8e;
+    color: #fff;
+    min-height: 45px;
+    width: 100%;
+    height: 45px;
+    box-shadow: #000 0 0 5px;
+    position: fixed;
+    box-sizing: border-box;
+    transition: all .25s;
+    z-index: 2000;
+  }
+
+  #saleBanner {
+    margin-top: 45px;
+  }
+
+  .profile-imgs img {
+    width: 235px;
+  }
+
+  .mobile-left-menu {
+    width: 33.33333333%;
+  }
+
+  .mobile-right-menu {
+    width: 33.33333333%;
+    float: right;
+  }
+
+  .mobile-left-menu {
+    display: flex;
+  }
+
+  .mobile-header {
+  display: flex;
+  justify-content: space-between;
+  }
+
+  .mobile-right-menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .menu-option {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 45px;
+    height: 45px;
+    border-right: 1px solid #3762d7;
+    cursor: pointer;
+  }
+
+  .menu-option-right {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 45px;
+    height: 45px;
+    border-left: 1px solid #3762d7;
+    cursor: pointer;
+  }
+
+  .fa-bars {
+    color: white;
+    font-size: 25px;
+  }
+
+  .mobile-logo {
+    max-height:30px;vertical-align:middle;
+    max-width: 100%;
+    padding-top: 7px;
+  }
+  
 }
