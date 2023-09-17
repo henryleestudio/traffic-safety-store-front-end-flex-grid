@@ -575,3 +575,10 @@ header {
   }
   
 }
+
+@media only screen and (max-width: 510px) {
+  .profile-imgs img {
+    width: 40%;
+  }
+
+}
