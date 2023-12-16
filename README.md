@@ -1,18 +1,13 @@
-# Traffic Safety Store - Responsive
+# Traffic Safety Store - Front End Responsive
+
+I revamped the "Our Team" page for Traffic Safety Store, specifically targeting the image grid. I transitioned from Bootstrap styles to a more flexible and efficient design using Flexbox. The goal was to enhance responsiveness and improve the overall layout.
+
+The key modification involved rewriting the image grid to utilize Flexbox, ensuring a maximum of 4 images per row. This not only adheres to modern design principles but also enhances the user experience by maintaining a clean and organized appearance. The end result is a responsive and visually pleasing layout that optimally showcases the Traffic Safety Store team on the "Our Team" page.
 
 Link to project: <a target="_blank" href="https://henryleestudio.github.io/traffic-safety-store-front-end-flex-grid/">live demo</a>
 
 ![traffic-safety-store-full-screen html](https://github.com/henryleestudio/traffic-safety-store-front-end-flex-grid/assets/101936420/1bef2425-f78e-4415-b508-08cf1e595b09)
 
-<!-- ## Design -->
-I managed a Shopify e-commerce platform, created website funnels, designed & managed online advertisements, launched new products. Led 13+ creative professionals in product design, research, leadership training. Created 50+ products and designed brand materials.
-&nbsp
-• Design & create artwear / fashion collections.<br>
-• Manage the art gallery / venue space.<br>
-• Marketing the art & fashion products.<br>
-
-HTML | CSS | Flexbox | UI Design | Photoshop
-<br>
 <p align="left">
   <a href="https://henrylee.studio/" target="_blank">
     <img src="https://user-images.githubusercontent.com/101936420/172000054-7df36c23-7223-488f-8ecd-9f6bb4a79ff4.png" width="10%"/>
