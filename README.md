@@ -1,4 +1,5 @@
-# Traffic Safety Store - Front End Responsive
+# Traffic Safety Store |
+Front End Responsive
 
 I revamped the "Our Team" page for Traffic Safety Store, specifically targeting the image grid. I transitioned from Bootstrap styles to a more flexible and efficient design using Flexbox. The goal was to enhance responsiveness and improve the overall layout.
 
